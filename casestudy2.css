@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e9f5ff; 
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    background: linear-gradient(135deg, #ffffff, #f9fbfd);
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+    border: 1px solid #e3e6ea;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+td.label {
+    font-weight: bold;
+    width: 40%;
+    color: #444;
+}
+.grade {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #007bff;
+}
+.remark {
+    text-align: center;
+    font-size: 1.1em;
+    padding: 15px;
+    margin-top: 20px;
+    background: #e9f5ff;
+    border-left: 5px solid #007bff;
+    border-radius: 6px;
+}
